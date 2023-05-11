@@ -1,0 +1,62 @@
+* {
+    font-size: 14.5px;
+    box-sizing: border-box;
+}
+
+nav {
+    float: right;
+}
+nav ol {
+    width: 100%;
+    display: flex;
+    right: 0;
+}
+nav ol li {
+    margin: 0 10px;
+}
+nav ol a{
+    text-decoration: none;
+    color: black;
+}
+nav ol a:hover {
+    text-decoration: underline;
+}
+.googleApp:hover {
+    background-color: rgb(230, 230, 230, 0.8);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+header {
+    clear: both;
+    text-align: center;
+}
+header img {
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+#inputWrapper {
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px rgb(223, 223, 223), 1px 1px 6px rgb(223, 223, 223);
+    margin: auto;
+    width: 561px;
+    height: 50px;
+}
+.fa-magnifying-glass {
+    padding: 17px;
+    width: 35px 40px;
+}
+#inputWrapper input {
+    border: none;
+    font-size: 18px;
+    padding-top: 14px;
+    width: 82%;
+}
+#inputWrapper input:focus {
+    outline: none;
+}
+.fa-microphone::before {
+    cursor: pointer;
+}
