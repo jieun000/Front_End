@@ -82,6 +82,7 @@ header img {
 }
 .box:hover {
     background-color: rgb(132, 132, 132, 0.2);
+    cursor: pointer;
 }
 .icon {
     border-radius: 50%;
@@ -108,4 +109,5 @@ header img {
 }
 .btn:hover {
     background-color: #20212419;
+    cursor: pointer;
 }
